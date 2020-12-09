@@ -7,7 +7,7 @@ header {
   text-align: center;
 }
 header > h1 {
-  padding: 20px;
+  padding: 20px 0;
 }
 .list {
   border-top: 1px solid gray;
@@ -20,13 +20,10 @@ header > h1 {
   padding: 15px 20px;
 }
 .main {
-  margin: 50px auto;
-}
-.green {
   width: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 .green1 {
   width: 200px;
@@ -48,12 +45,6 @@ header > h1 {
   height: 200px;
   background-color: #93ffab;
 }
-.yellow {
-  width: 800px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
 .yellow1 {
   width: 200px;
   height: 200px;
@@ -73,12 +64,6 @@ header > h1 {
   width: 200px;
   height: 200px;
   background-color: #e4ff8d;
-}
-.blue {
-  width: 800px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 .blue1 {
   width: 200px;
